@@ -26,7 +26,7 @@
 
 ## Testing
 1.	All work for this section should be under a new feature branch called trip-service-tests.  Create this branch from data-access-model
-2.	Create test services in the class library TripPlanner.Tests.  Ensure you use the appropriate project.json dependencies from xUnit website. https://xunit.github.io/docs/getting-started-dotnet-core.html
+2.	Create test services in the class library TripPlanner.Tests.  Ensure you use the appropriate project.json dependencies from [xUnit website](https://xunit.github.io/docs/getting-started-dotnet-core.html)
 3.	As soon as you have created and completed the class for TripApplicationServiceTests including tests for createTrip, UpdateTrip and DeleteTrip.
 
     - Do a commit to the trip-service-test branch
