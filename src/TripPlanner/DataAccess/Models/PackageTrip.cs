@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TripPlanner.DataAccess.Models
 {
@@ -9,9 +7,13 @@ namespace TripPlanner.DataAccess.Models
     {
         public int Id { get; set; }
         public Package Package { get; set; }
+        [Required]
         public int PackageId { get; set; }
         public Trip Trip { get; set; }
+        [Required]
         public int TripId { get; set; }
+        [Required]
+        [Column(TypeName = "money")]
         public decimal TripCost { get; set; }
     }
 }
